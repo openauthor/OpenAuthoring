@@ -1,4 +1,3 @@
-<meta http-equiv="Access-Control-Allow-Origin" content="*">
 
 This is my markdown source file.
 ---

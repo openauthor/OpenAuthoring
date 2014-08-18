@@ -1,3 +1,5 @@
+<meta http-equiv="Access-Control-Allow-Origin" content="*">
+
 This is my markdown source file.
 ---
 **here** _is_ test for some feature 

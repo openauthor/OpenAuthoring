@@ -1,5 +1,3 @@
-test
-
 This is my markdown source file.
 ---
 **here** _is_ test for some feature 
@@ -21,10 +19,7 @@ this is normal paragragh:
 ```
 
 js&copy;
-<<<<<<< HEAD
-I modified this line for test!mjjjjjjj
-=======
-I modified this line for test!mjjjjjjj11113333333
->>>>>>> 12e8dadbeba399b7b8ee6a77dc6dd60a8f3338c1
+
+check it out
 
 > Written with [StackEdit](https://stackedit.io/).

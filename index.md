@@ -1,0 +1,30 @@
+test
+
+This is my markdown source file.
+---
+**here** _is_ test for some feature 
+###here is test for some feature 
+* here is test for some feature 
+* here is test for some feature 
+
+https://github.com/
+
+this is normal paragragh:
+
+    this is a code block. 
+    
+```java
+    int main(){
+        System.out.println("Hello World!");
+        for(int i=0;i<10;i++) i++;
+    }
+```
+
+js&copy;
+<<<<<<< HEAD
+I modified this line for test!mjjjjjjj
+=======
+I modified this line for test!mjjjjjjj1111
+>>>>>>> 12e8dadbeba399b7b8ee6a77dc6dd60a8f3338c1
+
+> Written with [StackEdit](https://stackedit.io/).

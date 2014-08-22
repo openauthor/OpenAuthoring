@@ -1,239 +1,360 @@
-Welcome to StackEdit!	{#welcome}tttttjjjj
-=====================
-
-**hello**
-james
-Hello, I am your first Markdown document within **StackEdit**[^stackedit]. Don't delete me, I can be helpful. I can be recovered anyway in the `Utils` tab of the <i class="icon-cog"></i> `Settings` dialog.
-
-----------
-
-
-Documents
----------
-
-**StackEdit** stores your documents in your browser, which means all your documents are automatically saved locally and are accessible **offline!**
-
-> **NOTE:**
-> 
-> - StackEdit is accessible offline after the application has been loaded for the first time.
-> - Your local documents are not shared between different browsers or computers.
-> - Clearing your browser's data may **delete all your local documents!** Make sure your documents are backed up using **Google Drive** or **Dropbox** synchronization (see [<i class="icon-share"></i> Synchronization](#synchronization) section).
-
-#### <i class="icon-file"></i> Create a document
-
-You can create a new document by clicking the <i class="icon-file"></i> button in the navigation bar. It will switch from the current document to the new one.
-
-#### <i class="icon-folder-open"></i> Switch to another document
-
-You can list all your local documents and switch from one to another by clicking the <i class="icon-folder-open"></i> button in the navigation bar.
-
-#### <i class="icon-pencil"></i> Rename a document
-
-You can rename the current document by clicking the document title in the navigation bar.
-
-#### <i class="icon-trash"></i> Delete a document
-
-You can delete the current document by clicking the <i class="icon-trash"></i> button in the navigation bar.
-
-#### <i class="icon-hdd"></i> Save a document
-
-You can save the current document to a file using the <i class="icon-hdd"></i> `Save as...` sub-menu from the <i class="icon-provider-stackedit"></i> menu.
-
-> **Tip:** See [<i class="icon-share"></i> Publish a document](#publish-a-document) section for a description of the different output formats.
-
-
-----------
-
-
-Synchronization
----------------
-
-**StackEdit** can be combined with **Google Drive** and **Dropbox** to have your documents centralized in the *Cloud*. The synchronization mechanism will take care of uploading your modifications or downloading the latest version of your documents.
-
-> **NOTE:**
-> 
-> - Full access to **Google Drive** or **Dropbox** is required to be able to import any document in StackEdit.
-> - Imported documents are downloaded in your browser and are not transmitted to a server.
-> - If you experience problems exporting documents to Google Drive, check and optionally disable browser extensions, such as Disconnect.
-
-#### <i class="icon-download"></i> Import a document
-
-You can import a document from the *Cloud* by going to the <i class="icon-provider-gdrive"></i> `Google Drive` or the <i class="icon-provider-dropbox"></i> `Dropbox` sub-menu and by clicking `Import from...`. Once imported, your document will be automatically synchronized with the **Google Drive** / **Dropbox** file.
-
-#### <i class="icon-upload"></i> Export a document
-
-You can export any document by going to the <i class="icon-provider-gdrive"></i> `Google Drive` or the <i class="icon-provider-dropbox"></i> `Dropbox` sub-menu and by clicking `Export to...`. Even if your document is already synchronized with **Google Drive** or **Dropbox**, you can export it to a another location. **StackEdit** can synchronize one document with multiple locations.
-
-> **Tip:** Using **Google Drive**, you can create collaborative documents to work in real time with other users. Just check the box `Create a real time collaborative document` in the dialog options when exporting to Google Drive.
-
-#### <i class="icon-refresh"></i> Synchronize a document
-
-Once your document is linked to a **Google Drive** or a **Dropbox** file, **StackEdit** will periodically (every 3 minutes) synchronize it by downloading/uploading any modification. Any conflict will be detected, and a local copy of your document will be created as a backup if necessary.
-
-If you just have modified your document and you want to force the synchronization, click the <i class="icon-refresh"></i> button in the navigation bar.
-
-> **NOTE:** The <i class="icon-refresh"></i> button is disabled when you have no document to synchronize.
-
-#### <i class="icon-refresh"></i> Manage document synchronization
-
-Since one document can be synchronized with multiple locations, you can list and manage synchronized locations by clicking <i class="icon-refresh"></i> `Manage synchronization` in the <i class="icon-provider-stackedit"></i> menu. This will open a dialog box allowing you to add or remove synchronization links that are associated to your document.
-
-> **NOTE:** If you delete the file from **Google Drive** or from **Dropbox**, the document will no longer be synchronized with that location.
-
-----------
-
-
-Publication
------------
-
-Once you are happy with your document, you can publish it on different websites directly from **StackEdit**. As for now, **StackEdit** can publish on **Blogger**, **Dropbox**, **Gist**, **GitHub**, **Google Drive**, **Tumblr**, **WordPress** and on any SSH server.
-
-#### <i class="icon-share"></i> Publish a document
-
-You can publish your document by going to the <i class="icon-share"></i> `Publish on` sub-menu and by choosing a website. In the dialog box, you can choose the publication format:
-
-- Markdown, to publish the Markdown text on a website that can interpret it (**GitHub** for instance),
-- HTML, to publish the document converted into HTML (on a blog for instance),
-- Template, to have a full control of the output.
-
-> **NOTE:** The default template is a simple webpage wrapping your document in HTML format. You can customize it in the `Services` tab of the <i class="icon-cog"></i> `Settings` dialog.
-
-#### <i class="icon-share"></i> Update a publication
-
-After publishing, **StackEdit** will keep your document linked to that publish location so that you can update it easily. Once you have modified your document and you want to update your publication, click on the <i class="icon-share"></i> button in the navigation bar.
-
-> **NOTE:** The <i class="icon-share"></i> button is disabled when the document has not been published yet.
-
-#### <i class="icon-share"></i> Manage document publication
-
-Since one document can be published on multiple locations, you can list and manage publish locations by clicking <i class="icon-share"></i> `Manage publication` in the <i class="icon-provider-stackedit"></i> menu. This will open a dialog box allowing you to remove publication links that are associated to your document.
-
-> **NOTE:** In some cases, if the file has been removed from the website or the blog, the document will no longer be published on that location.
-
-----------
-
-
-Markdown Extra
---------------
-
-**StackEdit** supports **Markdown Extra**, which extends **Markdown** syntax with some nice features.
-
-> **Tip:** You can disable any **Markdown Extra** feature in the `Extensions` tab of the <i class="icon-cog"></i> `Settings` dialog.
-
-
-### Tables
-
-**Markdown Extra** has a special syntax for tables:
-
-Item      | Value
---------- | -----
-Computer  | 1600 USD
-Phone     | 12 USD
-Pipe      | 1 USD
-
-You can specify column alignment with one or two colons:
-
-| Item      |    Value | Qty  |
-| :-------- | --------:| :--: |
-| Computer  | 1600 USD |  5   |
-| Phone     |   12 USD |  12  |
-| Pipe      |    1 USD | 234  |
-
-
-### Definition Lists
-
-**Markdown Extra** has a special syntax for definition lists too:
-
-Term 1
-Term 2
-:   Definition A
-:   Definition B
-
-Term 3
-
-:   Definition C
-
-:   Definition D
-
-	> part of definition D
-
-
-### Fenced code blocks
-
-GitHub's fenced code blocks[^gfm] are also supported with **Prettify** syntax highlighting:
-
-```
-// Foo
-var bar = 0;
-```
-
-> **Tip:** To use **Highlight.js** instead of **Prettify**, just configure the `Markdown Extra` extension in the <i class="icon-cog"></i> `Settings` dialog.
-
-
-### Footnotes
-
-You can create footnotes like this[^footnote].
-
-  [^footnote]: Here is the *text* of the **footnote**.
-
-
-### SmartyPants
-
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
-
-|                  | ASCII                                    | HTML                                |
- ------------------|------------------------------------------|-------------------------------------
-| Single backticks | `'Isn't this fun?'`                      | &#8216;Isn&#8217;t this fun?&#8217; |
-| Quotes           | `"Isn't this fun?"`                      | &#8220;Isn&#8217;t this fun?&#8221; |
-| Dashes           | `-- is an en-dash and --- is an em-dash` | &#8211; is an en-dash and &#8212; is an em-dash |
-
-
-### Table of contents
-
-You can insert a table of contents using the marker `[TOC]`:
-
-[TOC]
-
-
-### Comments
-
-Usually, comments in Markdown are just standard HTML comments. <!-- like this -->
-**StackEdit** extends HTML comments in order to produce useful, highlighted comments in the preview but not in your exported documents. <!--- This is very useful for collecting feedback in a collaborative document. -->
-
-
-### MathJax
- 
-You can render *LaTeX* mathematical expressions using **MathJax**, as on [math.stackexchange.com][1]:
-
-The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall
-n\in\mathbb N$ is via the Euler integral
-
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
-
-> **Tip:** Make sure you include MathJax into your publications to render mathematical expression correctly. Your page/template should include something like: 
-
-```
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index.md</title>
+<link rel="stylesheet" href="https://stackedit.io/res-min/themes/base.css" />
 <script type="text/javascript" src="https://stackedit.io/libs/MathJax/MathJax.js?config=TeX-AMS_HTML"></script>
-```
+</head>
+<body><div class="container"><h1 id="welcome-to-stackedit-welcometttttjjjj">Welcome to StackEdit!   {#welcome}tttttjjjj</h1>
 
-> **NOTE:** You can find more information:
->
-> - about **Markdown** syntax [here][2],
-> - about **Markdown Extra** extension [here][3],
-> - about **LaTeX** mathematical expressions [here][4],
-> - about **Prettify** syntax highlighting [here][5],
-> - about **Highlight.js** syntax highlighting [here][6].
+<p><strong>hello</strong> <br>
+james <br>
+Hello, I am your first Markdown document within <strong>StackEdit</strong><a href="#fn:stackedit" id="fnref:stackedit" title="See footnote" class="footnote">1</a>. Don’t delete me, I can be helpful. I can be recovered anyway in the <code>Utils</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
 
-  [^stackedit]: [StackEdit](https://stackedit.io/) is a full-featured, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.
+<hr>
 
-  [^gfm]: **GitHub Flavored Markdown** (GFM) is supported by StackEdit.
+<h2 id="documents">Documents</h2>
+
+<p><strong>StackEdit</strong> stores your documents in your browser, which means all your documents are automatically saved locally and are accessible <strong>offline!</strong></p>
+
+<blockquote>
+  <p><strong>NOTE:</strong></p>
+  
+  <ul>
+  <li>StackEdit is accessible offline after the application has been loaded for the first time.</li>
+  <li>Your local documents are not shared between different browsers or computers.</li>
+  <li>Clearing your browser’s data may <strong>delete all your local documents!</strong> Make sure your documents are backed up using <strong>Google Drive</strong> or <strong>Dropbox</strong> synchronization (see <a href="#synchronization"><i class="icon-share"></i> Synchronization</a> section).</li>
+  </ul>
+</blockquote>
+
+<h4 id="create-a-document"><i class="icon-file"></i> Create a document</h4>
+
+<p>You can create a new document by clicking the <i class="icon-file"></i> button in the navigation bar. It will switch from the current document to the new one.</p>
+
+<h4 id="switch-to-another-document"><i class="icon-folder-open"></i> Switch to another document</h4>
+
+<p>You can list all your local documents and switch from one to another by clicking the <i class="icon-folder-open"></i> button in the navigation bar.</p>
+
+<h4 id="rename-a-document"><i class="icon-pencil"></i> Rename a document</h4>
+
+<p>You can rename the current document by clicking the document title in the navigation bar.</p>
+
+<h4 id="delete-a-document"><i class="icon-trash"></i> Delete a document</h4>
+
+<p>You can delete the current document by clicking the <i class="icon-trash"></i> button in the navigation bar.</p>
+
+<h4 id="save-a-document"><i class="icon-hdd"></i> Save a document</h4>
+
+<p>You can save the current document to a file using the <i class="icon-hdd"></i> <code>Save as...</code> sub-menu from the <i class="icon-provider-stackedit"></i> menu.</p>
+
+<blockquote>
+  <p><strong>Tip:</strong> See <a href="#publish-a-document"><i class="icon-share"></i> Publish a document</a> section for a description of the different output formats.</p>
+</blockquote>
+
+<hr>
+
+<h2 id="synchronization">Synchronization</h2>
+
+<p><strong>StackEdit</strong> can be combined with <strong>Google Drive</strong> and <strong>Dropbox</strong> to have your documents centralized in the <em>Cloud</em>. The synchronization mechanism will take care of uploading your modifications or downloading the latest version of your documents.</p>
+
+<blockquote>
+  <p><strong>NOTE:</strong></p>
+  
+  <ul>
+  <li>Full access to <strong>Google Drive</strong> or <strong>Dropbox</strong> is required to be able to import any document in StackEdit.</li>
+  <li>Imported documents are downloaded in your browser and are not transmitted to a server.</li>
+  <li>If you experience problems exporting documents to Google Drive, check and optionally disable browser extensions, such as Disconnect.</li>
+  </ul>
+</blockquote>
+
+<h4 id="import-a-document"><i class="icon-download"></i> Import a document</h4>
+
+<p>You can import a document from the <em>Cloud</em> by going to the <i class="icon-provider-gdrive"></i> <code>Google Drive</code> or the <i class="icon-provider-dropbox"></i> <code>Dropbox</code> sub-menu and by clicking <code>Import from...</code>. Once imported, your document will be automatically synchronized with the <strong>Google Drive</strong> / <strong>Dropbox</strong> file.</p>
+
+<h4 id="export-a-document"><i class="icon-upload"></i> Export a document</h4>
+
+<p>You can export any document by going to the <i class="icon-provider-gdrive"></i> <code>Google Drive</code> or the <i class="icon-provider-dropbox"></i> <code>Dropbox</code> sub-menu and by clicking <code>Export to...</code>. Even if your document is already synchronized with <strong>Google Drive</strong> or <strong>Dropbox</strong>, you can export it to a another location. <strong>StackEdit</strong> can synchronize one document with multiple locations.</p>
+
+<blockquote>
+  <p><strong>Tip:</strong> Using <strong>Google Drive</strong>, you can create collaborative documents to work in real time with other users. Just check the box <code>Create a real time collaborative document</code> in the dialog options when exporting to Google Drive.</p>
+</blockquote>
+
+<h4 id="synchronize-a-document"><i class="icon-refresh"></i> Synchronize a document</h4>
+
+<p>Once your document is linked to a <strong>Google Drive</strong> or a <strong>Dropbox</strong> file, <strong>StackEdit</strong> will periodically (every 3 minutes) synchronize it by downloading/uploading any modification. Any conflict will be detected, and a local copy of your document will be created as a backup if necessary.</p>
+
+<p>If you just have modified your document and you want to force the synchronization, click the <i class="icon-refresh"></i> button in the navigation bar.</p>
+
+<blockquote>
+  <p><strong>NOTE:</strong> The <i class="icon-refresh"></i> button is disabled when you have no document to synchronize.</p>
+</blockquote>
+
+<h4 id="manage-document-synchronization"><i class="icon-refresh"></i> Manage document synchronization</h4>
+
+<p>Since one document can be synchronized with multiple locations, you can list and manage synchronized locations by clicking <i class="icon-refresh"></i> <code>Manage synchronization</code> in the <i class="icon-provider-stackedit"></i> menu. This will open a dialog box allowing you to add or remove synchronization links that are associated to your document.</p>
+
+<blockquote>
+  <p><strong>NOTE:</strong> If you delete the file from <strong>Google Drive</strong> or from <strong>Dropbox</strong>, the document will no longer be synchronized with that location.</p>
+</blockquote>
+
+<hr>
+
+<h2 id="publication">Publication</h2>
+
+<p>Once you are happy with your document, you can publish it on different websites directly from <strong>StackEdit</strong>. As for now, <strong>StackEdit</strong> can publish on <strong>Blogger</strong>, <strong>Dropbox</strong>, <strong>Gist</strong>, <strong>GitHub</strong>, <strong>Google Drive</strong>, <strong>Tumblr</strong>, <strong>WordPress</strong> and on any SSH server.</p>
+
+<h4 id="publish-a-document"><i class="icon-share"></i> Publish a document</h4>
+
+<p>You can publish your document by going to the <i class="icon-share"></i> <code>Publish on</code> sub-menu and by choosing a website. In the dialog box, you can choose the publication format:</p>
+
+<ul>
+<li>Markdown, to publish the Markdown text on a website that can interpret it (<strong>GitHub</strong> for instance),</li>
+<li>HTML, to publish the document converted into HTML (on a blog for instance),</li>
+<li>Template, to have a full control of the output.</li>
+</ul>
+
+<blockquote>
+  <p><strong>NOTE:</strong> The default template is a simple webpage wrapping your document in HTML format. You can customize it in the <code>Services</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+
+<h4 id="update-a-publication"><i class="icon-share"></i> Update a publication</h4>
+
+<p>After publishing, <strong>StackEdit</strong> will keep your document linked to that publish location so that you can update it easily. Once you have modified your document and you want to update your publication, click on the <i class="icon-share"></i> button in the navigation bar.</p>
+
+<blockquote>
+  <p><strong>NOTE:</strong> The <i class="icon-share"></i> button is disabled when the document has not been published yet.</p>
+</blockquote>
+
+<h4 id="manage-document-publication"><i class="icon-share"></i> Manage document publication</h4>
+
+<p>Since one document can be published on multiple locations, you can list and manage publish locations by clicking <i class="icon-share"></i> <code>Manage publication</code> in the <i class="icon-provider-stackedit"></i> menu. This will open a dialog box allowing you to remove publication links that are associated to your document.</p>
+
+<blockquote>
+  <p><strong>NOTE:</strong> In some cases, if the file has been removed from the website or the blog, the document will no longer be published on that location.</p>
+</blockquote>
+
+<hr>
+
+<h2 id="markdown-extra">Markdown Extra</h2>
+
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+
+<blockquote>
+  <p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+
+<h3 id="tables">Tables</h3>
+
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+
+<table>
+<thead>
+<tr>
+  <th>Item</th>
+  <th>Value</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td>Computer</td>
+  <td>1600 USD</td>
+</tr>
+<tr>
+  <td>Phone</td>
+  <td>12 USD</td>
+</tr>
+<tr>
+  <td>Pipe</td>
+  <td>1 USD</td>
+</tr>
+</tbody></table>
 
 
-  [1]: http://math.stackexchange.com/
-  [2]: http://daringfireball.net/projects/markdown/syntax "Markdown"
-  [3]: https://github.com/jmcmanus/pagedown-extra "Pagedown Extra"
-  [4]: http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
-  [5]: https://code.google.com/p/google-code-prettify/
-  [6]: http://highlightjs.org/
+<p>You can specify column alignment with one or two colons:</p>
+
+<table>
+<thead>
+<tr>
+  <th style="text-align:left;">Item</th>
+  <th style="text-align:right;">Value</th>
+  <th style="text-align:center;">Qty</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td style="text-align:left;">Computer</td>
+  <td style="text-align:right;">1600 USD</td>
+  <td style="text-align:center;">5</td>
+</tr>
+<tr>
+  <td style="text-align:left;">Phone</td>
+  <td style="text-align:right;">12 USD</td>
+  <td style="text-align:center;">12</td>
+</tr>
+<tr>
+  <td style="text-align:left;">Pipe</td>
+  <td style="text-align:right;">1 USD</td>
+  <td style="text-align:center;">234</td>
+</tr>
+</tbody></table>
+
+
+<h3 id="definition-lists">Definition Lists</h3>
+
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+
+<dl>
+<dt>Term 1</dt>
+<dt>Term 2</dt>
+<dd>Definition A</dd>
+
+<dd>Definition B</dd>
+
+<dt>Term 3</dt>
+<dd>
+<p>Definition C</p>
+</dd>
+
+<dd>
+<p>Definition D</p>
+
+<blockquote>
+  <p>part of definition D</p>
+</blockquote>
+</dd>
+</dl>
+
+<h3 id="fenced-code-blocks">Fenced code blocks</h3>
+
+<p>GitHub’s fenced code blocks<a href="#fn:gfm" id="fnref:gfm" title="See footnote" class="footnote">2</a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+
+<pre class="prettyprint prettyprinted"><code><span class="com">// Foo</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> bar </span><span class="pun">=</span><span class="pln"> </span><span class="lit">0</span><span class="pun">;</span></code></pre>
+
+<blockquote>
+  <p><strong>Tip:</strong> To use <strong>Highlight.js</strong> instead of <strong>Prettify</strong>, just configure the <code>Markdown Extra</code> extension in the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+
+<h3 id="footnotes">Footnotes</h3>
+
+<p>You can create footnotes like this<a href="#fn:footnote" id="fnref:footnote" title="See footnote" class="footnote">3</a>.</p>
+
+<h3 id="smartypants">SmartyPants</h3>
+
+<p>SmartyPants converts ASCII punctuation characters into “smart” typographic punctuation HTML entities. For example:</p>
+
+<table>
+<thead>
+<tr>
+  <th></th>
+  <th>ASCII</th>
+  <th>HTML</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td>Single backticks</td>
+  <td><code>'Isn't this fun?'</code></td>
+  <td>‘Isn’t this fun?’</td>
+</tr>
+<tr>
+  <td>Quotes</td>
+  <td><code>"Isn't this fun?"</code></td>
+  <td>“Isn’t this fun?”</td>
+</tr>
+<tr>
+  <td>Dashes</td>
+  <td><code>-- is an en-dash and --- is an em-dash</code></td>
+  <td>– is an en-dash and — is an em-dash</td>
+</tr>
+</tbody></table>
+
+
+<h3 id="table-of-contents">Table of contents</h3>
+
+<p>You can insert a table of contents using the marker <code>[TOC]</code>:</p>
+
+<p><div class="toc">
+<ul>
+<li><a href="#welcome-to-stackedit-welcometttttjjjj">Welcome to StackEdit!   {#welcome}tttttjjjj</a><ul>
+<li><a href="#documents">Documents</a><ul>
+<li><ul>
+<li><a href="#create-a-document"> Create a document</a></li>
+<li><a href="#switch-to-another-document"> Switch to another document</a></li>
+<li><a href="#rename-a-document"> Rename a document</a></li>
+<li><a href="#delete-a-document"> Delete a document</a></li>
+<li><a href="#save-a-document"> Save a document</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#synchronization">Synchronization</a><ul>
+<li><ul>
+<li><a href="#import-a-document"> Import a document</a></li>
+<li><a href="#export-a-document"> Export a document</a></li>
+<li><a href="#synchronize-a-document"> Synchronize a document</a></li>
+<li><a href="#manage-document-synchronization"> Manage document synchronization</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#publication">Publication</a><ul>
+<li><ul>
+<li><a href="#publish-a-document"> Publish a document</a></li>
+<li><a href="#update-a-publication"> Update a publication</a></li>
+<li><a href="#manage-document-publication"> Manage document publication</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#markdown-extra">Markdown Extra</a><ul>
+<li><a href="#tables">Tables</a></li>
+<li><a href="#definition-lists">Definition Lists</a></li>
+<li><a href="#fenced-code-blocks">Fenced code blocks</a></li>
+<li><a href="#footnotes">Footnotes</a></li>
+<li><a href="#smartypants">SmartyPants</a></li>
+<li><a href="#table-of-contents">Table of contents</a></li>
+<li><a href="#comments">Comments</a></li>
+<li><a href="#mathjax">MathJax</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</p>
+
+<h3 id="comments">Comments</h3>
+
+<p>Usually, comments in Markdown are just standard HTML comments. <!-- like this --> <br>
+<strong>StackEdit</strong> extends HTML comments in order to produce useful, highlighted comments in the preview but not in your exported documents. </p>
+
+<h3 id="mathjax">MathJax</h3>
+
+<p>You can render <em>LaTeX</em> mathematical expressions using <strong>MathJax</strong>, as on <a href="http://math.stackexchange.com/">math.stackexchange.com</a>:</p>
+
+<p>The <em>Gamma function</em> satisfying <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-3-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-49" style="width: 13.403em; display: inline-block;"><span style="display: inline-block; position: relative; width: 11.042em; height: 0px; font-size: 121%;"><span style="position: absolute; clip: rect(1.538em 1000.003em 2.896em -0.528em); top: -2.476em; left: 0.003em;"><span class="mrow" id="MathJax-Span-50"><span class="mi" id="MathJax-Span-51" style="font-family: MathJax_Main;">Γ</span><span class="mo" id="MathJax-Span-52" style="font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-53" style="font-family: MathJax_Math; font-style: italic;">n</span><span class="mo" id="MathJax-Span-54" style="font-family: MathJax_Main;">)</span><span class="mo" id="MathJax-Span-55" style="font-family: MathJax_Main; padding-left: 0.298em;">=</span><span class="mo" id="MathJax-Span-56" style="font-family: MathJax_Main; padding-left: 0.298em;">(</span><span class="mi" id="MathJax-Span-57" style="font-family: MathJax_Math; font-style: italic;">n</span><span class="mo" id="MathJax-Span-58" style="font-family: MathJax_Main; padding-left: 0.239em;">−</span><span class="mn" id="MathJax-Span-59" style="font-family: MathJax_Main; padding-left: 0.239em;">1</span><span class="mo" id="MathJax-Span-60" style="font-family: MathJax_Main;">)</span><span class="mo" id="MathJax-Span-61" style="font-family: MathJax_Main;">!</span><span class="mspace" id="MathJax-Span-62" style="height: 0.003em; vertical-align: 0.003em; width: 1.006em; display: inline-block; overflow: hidden;"></span><span class="mi" id="MathJax-Span-63" style="font-family: MathJax_Main;">∀</span><span class="mi" id="MathJax-Span-64" style="font-family: MathJax_Math; font-style: italic;">n</span><span class="mo" id="MathJax-Span-65" style="font-family: MathJax_Main; padding-left: 0.298em;">∈</span><span class="texatom" id="MathJax-Span-66" style="padding-left: 0.298em;"><span class="mrow" id="MathJax-Span-67"><span class="mi" id="MathJax-Span-68" style="font-family: MathJax_AMS;">N</span></span></span></span><span style="display: inline-block; width: 0px; height: 2.482em;"></span></span></span><span style="border-left-width: 0.004em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 1.361em; vertical-align: -0.354em;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-3">\Gamma(n) = (n-1)!\quad\forall
+n\in\mathbb N</script> is via the Euler integral</p>
+
+<p><span class="MathJax_Preview"></span><div class="MathJax_Display" role="textbox" aria-readonly="true" style="text-align: center;"><span class="MathJax" id="MathJax-Element-4-Frame"><nobr><span class="math" id="MathJax-Span-69" style="width: 11.927em; display: inline-block;"><span style="display: inline-block; position: relative; width: 9.861em; height: 0px; font-size: 121%;"><span style="position: absolute; clip: rect(0.593em 1000.003em 3.25em -0.528em); top: -2.181em; left: 0.003em;"><span class="mrow" id="MathJax-Span-70"><span class="mi" id="MathJax-Span-71" style="font-family: MathJax_Main;">Γ</span><span class="mo" id="MathJax-Span-72" style="font-family: MathJax_Main;">(</span><span class="mi" id="MathJax-Span-73" style="font-family: MathJax_Math; font-style: italic;">z<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="mo" id="MathJax-Span-74" style="font-family: MathJax_Main;">)</span><span class="mo" id="MathJax-Span-75" style="font-family: MathJax_Main; padding-left: 0.298em;">=</span><span class="msubsup" id="MathJax-Span-76" style="padding-left: 0.298em;"><span style="display: inline-block; position: relative; width: 1.951em; height: 0px;"><span style="position: absolute; clip: rect(1.656em 1000.003em 4.253em -0.469em); top: -3.185em; left: 0.003em;"><span class="mo" id="MathJax-Span-77" style="font-family: MathJax_Size2; vertical-align: 0.003em;">∫<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.416em;"></span></span><span style="display: inline-block; width: 0px; height: 3.191em;"></span></span><span style="position: absolute; clip: rect(1.656em 1000.003em 2.305em -0.469em); top: -3.185em; left: 1.184em;"><span class="mi" id="MathJax-Span-78" style="font-size: 70.7%; font-family: MathJax_Main;">∞</span><span style="display: inline-block; width: 0px; height: 2.128em;"></span></span><span style="position: absolute; clip: rect(1.479em 1000.003em 2.305em -0.528em); top: -1.237em; left: 0.593em;"><span class="mn" id="MathJax-Span-79" style="font-size: 70.7%; font-family: MathJax_Main;">0</span><span style="display: inline-block; width: 0px; height: 2.128em;"></span></span></span></span><span class="msubsup" id="MathJax-Span-80" style="padding-left: 0.18em;"><span style="display: inline-block; position: relative; width: 1.715em; height: 0px;"><span style="position: absolute; clip: rect(1.302em 1000.003em 2.305em -0.528em); top: -2.122em; left: 0.003em;"><span class="mi" id="MathJax-Span-81" style="font-family: MathJax_Math; font-style: italic;">t</span><span style="display: inline-block; width: 0px; height: 2.128em;"></span></span><span style="position: absolute; top: -2.535em; left: 0.357em;"><span class="texatom" id="MathJax-Span-82"><span class="mrow" id="MathJax-Span-83"><span class="mi" id="MathJax-Span-84" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">z<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="mo" id="MathJax-Span-85" style="font-size: 70.7%; font-family: MathJax_Main;">−</span><span class="mn" id="MathJax-Span-86" style="font-size: 70.7%; font-family: MathJax_Main;">1</span></span></span><span style="display: inline-block; width: 0px; height: 2.128em;"></span></span></span></span><span class="msubsup" id="MathJax-Span-87"><span style="display: inline-block; position: relative; width: 1.302em; height: 0px;"><span style="position: absolute; clip: rect(1.538em 1000.003em 2.305em -0.469em); top: -2.122em; left: 0.003em;"><span class="mi" id="MathJax-Span-88" style="font-family: MathJax_Math; font-style: italic;">e</span><span style="display: inline-block; width: 0px; height: 2.128em;"></span></span><span style="position: absolute; top: -2.535em; left: 0.475em;"><span class="texatom" id="MathJax-Span-89"><span class="mrow" id="MathJax-Span-90"><span class="mo" id="MathJax-Span-91" style="font-size: 70.7%; font-family: MathJax_Main;">−</span><span class="mi" id="MathJax-Span-92" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">t</span></span></span><span style="display: inline-block; width: 0px; height: 2.128em;"></span></span></span></span><span class="mi" id="MathJax-Span-93" style="font-family: MathJax_Math; font-style: italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="mi" id="MathJax-Span-94" style="font-family: MathJax_Math; font-style: italic;">t</span><span class="mspace" id="MathJax-Span-95" style="height: 0.003em; vertical-align: 0.003em; width: 0.18em; display: inline-block; overflow: hidden;"></span><span class="mo" id="MathJax-Span-96" style="font-family: MathJax_Main;">.</span></span><span style="display: inline-block; width: 0px; height: 2.187em;"></span></span></span><span style="border-left-width: 0.004em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 2.932em; vertical-align: -1.139em;"></span></span></nobr></span></div><script type="math/tex; mode=display" id="MathJax-Element-4">
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+</script></p>
+
+<blockquote>
+  <p><strong>Tip:</strong> Make sure you include MathJax into your publications to render mathematical expression correctly. Your page/template should include something like: </p>
+</blockquote>
+
+<pre class="prettyprint prettyprinted"><code><span class="tag">&lt;script</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"text/javascript"</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"https://stackedit.io/libs/MathJax/MathJax.js?config=TeX-AMS_HTML"</span><span class="tag">&gt;&lt;/script&gt;</span></code></pre>
+
+<blockquote>
+  <p><strong>NOTE:</strong> You can find more information:</p>
+  
+  <ul>
+  <li>about <strong>Markdown</strong> syntax <a href="http://daringfireball.net/projects/markdown/syntax" title="Markdown">here</a>,</li>
+  <li>about <strong>Markdown Extra</strong> extension <a href="https://github.com/jmcmanus/pagedown-extra" title="Pagedown Extra">here</a>,</li>
+  <li>about <strong>LaTeX</strong> mathematical expressions <a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference">here</a>,</li>
+  <li>about <strong>Prettify</strong> syntax highlighting <a href="https://code.google.com/p/google-code-prettify/">here</a>,</li>
+  <li>about <strong>Highlight.js</strong> syntax highlighting <a href="http://highlightjs.org/">here</a>.</li>
+  </ul>
+</blockquote>
+
+<div class="footnotes"><hr><ol><li id="fn:stackedit"><a href="https://stackedit.io/">StackEdit</a> is a full-featured, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites. <a href="#fnref:stackedit" title="Return to article" class="reversefootnote">↩</a></li><li id="fn:gfm"><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit. <a href="#fnref:gfm" title="Return to article" class="reversefootnote">↩</a></li><li id="fn:footnote">Here is the <em>text</em> of the <strong>footnote</strong>. <a href="#fnref:footnote" title="Return to article" class="reversefootnote">↩</a></li></ol></div></div></body>
+</html>

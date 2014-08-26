@@ -20,6 +20,9 @@ This is a code block:
 You can also access the github reposity [here](https://github.com/openauthor/OpenAuthoring)
 <p style='text-align:right'>---Written by Shuang<p>
 
+----------
+**Trying to look at change history**
+:)
 
 ----------
 **Seems good!**

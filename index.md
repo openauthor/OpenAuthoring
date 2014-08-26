@@ -19,3 +19,8 @@ This is a code block:
 ###Have fun with open authoring!###
 You can also access the github reposity [here](https://github.com/openauthor/OpenAuthoring)
 <p style='text-align:right'>---Written by Shuang<p>
+
+
+----------
+**Seems good!**
+<p style='text-align:right'>---Written by system<p>

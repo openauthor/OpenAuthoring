@@ -1,6 +1,7 @@
-hello world!
-ggjjllkkaaaa
-fd0008888121212121
+Hello World!
+---
+
+This is a code block:
 ```java
     System.out.println("Hello World!");
     class hello{
@@ -9,9 +10,12 @@ fd0008888121212121
             //TODO
         }
     }
-    hello
-    go!hiahia
 ```
-##How to do this?##
+**This** _line_ combines
 
-_This line for test!_
+- some kinds of 
+- markdown syntax.
+
+###Have fun with open authoring!###
+You can also access the github reposity [here](https://github.com/openauthor/OpenAuthoring)
+<p style='text-align:right'>---Written by Shuang<p>

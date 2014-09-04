@@ -1,36 +1,3 @@
-Hello World!
----
+http://localhost/api/v1/projects/fc54a343-e4bb-4e58-91ad-9ddff62f1879/mediacontents/8e87d176-206a-4094-b9d9-70a752042742:(blobcontent(Online))?locale=en-US&scale=large&blobId=12621ac6-df01-4594-bb5a-6b0f349af299#1409731677163
 
-This is a code block:
-```java
-    System.out.println("Hello World!");
-    class hello{
-    static hello;
-        hello(){
-            //TODO
-        }
-    }
-```
-**This** _line_ combines
-
-- some kinds of 
-- markdown syntax.
-
-###Have fun with open authoring!###
-You can also access the github reposity [here](https://github.com/openauthor/OpenAuthoring)
-<p style='text-align:right'>---Written by Shuang<p>
-
-----------
-**Trying to look at change history**
-:)
-
-----------
-**Seems good!**
-![enter image description here][1]
-
-    test
-
-<p style='text-align:right'>---Written by system<p>
-
-
-  [1]: http://www.studypress.info/wp-content/uploads/2013/06/smile-300x300.png
+http://localhost/api/v1/projects/fc54a343-e4bb-4e58-91ad-9ddff62f1879/mediacontents/8e87d176-206a-4094-b9d9-70a752042742%3a%28blobcontent%28Online%29%29%3a%28blobcontent%28Online%29%29

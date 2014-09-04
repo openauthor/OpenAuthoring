@@ -1,3 +1,0 @@
-http://localhost/api/v1/projects/fc54a343-e4bb-4e58-91ad-9ddff62f1879/mediacontents/8e87d176-206a-4094-b9d9-70a752042742:(blobcontent(Online))?locale=en-US&scale=large&blobId=12621ac6-df01-4594-bb5a-6b0f349af299#1409731677163
-
-http://localhost/api/v1/projects/fc54a343-e4bb-4e58-91ad-9ddff62f1879/mediacontents/8e87d176-206a-4094-b9d9-70a752042742%3a%28blobcontent%28Online%29%29%3a%28blobcontent%28Online%29%29

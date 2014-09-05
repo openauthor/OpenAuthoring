@@ -28,7 +28,7 @@ You can also access the github reposity [here](https://github.com/openauthor/Ope
 **Seems good!**
 ![enter image description here][1]
 
-    test Changed at 9/5
+    test Changed at 9/5 3:35 PM
 
 <p style='text-align:right'>---Written by system<p>
 

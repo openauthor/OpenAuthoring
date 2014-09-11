@@ -1,5 +1,5 @@
 ####[Welcome Document](/)####
-####[Chapter 1](/chapter-1/helloworld.html)####
-######[HelloWorld](/chapter-1/helloworld.html)######
-####[Chapter 2](/chapter-2/good.html)####
-######[Good One](/chapter-2/good.html)######
+####[Chapter 1](/Chapter-1/HelloWorld.html)####
+######[HelloWorld](/Chapter-1/HelloWorld.html)######
+####[Chapter 2](/Chapter-2/Good.html)####
+######[Good One](/Chapter-2/Good.html)######

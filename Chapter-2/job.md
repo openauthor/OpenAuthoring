@@ -1,4 +1,5 @@
 this is a sample file
+===
 
 
 Hello, I am your first Markdown document within **StackEdit**[^stackedit]. Don't delete me, I can be helpful. I can be recovered anyway in the `Utils` tab of the <i class="icon-cog"></i> `Settings` dialog.

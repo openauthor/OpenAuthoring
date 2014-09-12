@@ -1,5 +1,5 @@
-this is a sample file
-Welcome to StackEdit!	{#welcome}
+
+this is a sample fileWelcome to StackEdit!	{#welcome}
 =====================
 
 

@@ -1,6 +1,5 @@
-<p style="text-align:center">Markdown syntax</p>
-
-========
+<p style="text-align:center">Congratulations!<p>
+---
 
 Phrase Emphasis
 

@@ -1,4 +1,4 @@
-<p style="text-align:center">Congratulations!<p>
+<p style="text-align:center">Markdown Syntax<p>
 ---
 
 Phrase Emphasis

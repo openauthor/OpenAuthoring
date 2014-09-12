@@ -1,5 +1,6 @@
-<p>this is a sample file</p>
-===
+<p style="text-align:center">This is a sample file</p>
+.
+==
 d
 ==
 

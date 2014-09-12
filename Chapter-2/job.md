@@ -1,5 +1,5 @@
 <p style="text-align:center">This is a sample file<p>
-===
+=====================
 
 Welcome to StackEdit!	{#welcome}
 =====================

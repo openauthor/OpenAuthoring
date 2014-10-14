@@ -18,6 +18,7 @@ This is a code block:
 
 ###Have fun with open authoring!###
 You can also access the github reposity [here](https://github.com/openauthor/OpenAuthoring)
+I`m leaving the intern position~
 <p style='text-align:right'>---Written by Shuang<p>
 
 ----------
